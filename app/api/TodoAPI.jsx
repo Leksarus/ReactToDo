@@ -1,4 +1,4 @@
-var $ = require('jquery');
+var $ = require('jQuery');
 module.exports = {
 	setTodos: function(todos) {
 		if ($.isArray(todos)) {
@@ -6,6 +6,7 @@ module.exports = {
 			return todos;
 		}
 	},
+
 	getTodos: function() {
 		var stringTodos = localStorage.getItem('todos');
 		var todos = [];
