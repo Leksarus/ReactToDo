@@ -1,3 +1,3 @@
-# React boilerplate.
+# Todo application.
 
-### Boilerplate for React application.
+### React application that contains editable todo list. Example of use localStorage to store current list.
