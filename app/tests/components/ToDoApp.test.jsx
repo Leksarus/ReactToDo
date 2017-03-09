@@ -38,7 +38,6 @@ describe('ToDoApp', () => {
 		todoApp.handleToggle(11);
 		expect(todoApp.state.todos[0].completed).toBe(true);
 		expect(todoApp.state.todos[0].completedAt).toBeA('number');
-		// Expect completedAt to be a number
 	});
 
 	it('should set completedAt to undefined when handleToggle called', () => {
@@ -55,7 +54,5 @@ describe('ToDoApp', () => {
 		todoApp.handleToggle(11);
 		expect(todoApp.state.todos[0].completed).toBe(false);
 		expect(todoApp.state.todos[0].completedAt).toBe(undefined);
-		// Expect completedAt to be a number
 	});
-	// Test that when toggle from true to false, completedAt get removed
 });
