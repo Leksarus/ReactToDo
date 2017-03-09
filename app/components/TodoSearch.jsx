@@ -14,7 +14,7 @@ var TodoSearch = React.createClass({
 					<input 
 						type="search" 
 						ref="searchText" 
-						placeholder="Search todos"
+						placeholder="Wyszukaj zadania"
 						onChange={this.handleSearch}
 					/>
 				</div>
@@ -25,7 +25,7 @@ var TodoSearch = React.createClass({
 							ref="showCompleted"
 							onChange={this.handleSearch}
 						/>
-						Show completed todos.
+						Pokaż wykonane zadania.
 					</label>
 				</div>
 			</div>

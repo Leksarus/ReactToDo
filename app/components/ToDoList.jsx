@@ -7,7 +7,7 @@ var ToDoList = React.createClass({
 		var renderTodos = () => {
 			if(todos.length === 0) {
 				return (
-					<p className="container__message">Nothing To Do</p>
+					<p className="container__message">Nie ma nic do roboty.</p>
 				)				
 			}
 			return todos.map((todo) => {

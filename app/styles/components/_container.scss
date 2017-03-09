@@ -25,4 +25,10 @@
 		margin: 2rem auto;
 		text-align: center;
 	}
+	> p {
+		display: flex;
+		font-size: 0.8rem;
+		padding: 0 1rem;
+		justify-content: space-between;
+	}
 }

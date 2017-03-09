@@ -56,13 +56,14 @@ var ToDoApp = React.createClass({
 
 		return (
 			<div>
-				<h1 className="page-title">Todo App</h1>
+				<h1 className="page-title">Taskozarządzacz</h1>
 				<div className="row">
 					<div className="column small-centered small-11 medium-6 large-5">
 						<div className="container">
 							<TodoSearch onSearch={this.handleSearch}/>
 							<ToDoList todos={filteredTodos} onToggle={this.handleToggle}/>
 							<AddTodo handleAddTodo={this.handleAddTodo} />
+							<p><span>Wykonanie:</span><span>Kamil Nawrocki</span></p>
 						</div>
 					</div>
 				</div>
