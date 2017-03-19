@@ -27,7 +27,7 @@ var ToDoApp = React.createClass({
 					text: text,
 					completed: false,
 					createdAt: moment().unix(),
-					completed: undefined
+					completedAt: undefined
 				}
 			]
 		});
